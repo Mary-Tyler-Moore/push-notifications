@@ -67,6 +67,10 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        gcm_sender_id: '482941778795',
+      },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
