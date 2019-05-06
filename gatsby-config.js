@@ -67,6 +67,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         gcm_sender_id: '482941778795',
